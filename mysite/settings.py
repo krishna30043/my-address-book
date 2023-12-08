@@ -87,7 +87,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgressql_psycopg2",        
     }
 }
-DATABASES['default']= dj_database_url.config(default ='postgres://bmaijtnpgawajb:7229adbf59f68ec1f33c98da4430b77b7fffb8bd7f0467dd57f7e087f0288566@ec2-44-213-228-107.compute-1.amazonaws.com:5432/d2r2b1pkkeejii')
+DATABASES['default']= dj_database_url.config(default ='postgres://yoajwigbsjglor:dfda7599e31c099f14368abdf803a302a0d9c216695943407b934901a9d0b1a8@ec2-100-24-250-155.compute-1.amazonaws.com:5432/dd87i8av02og1c')
 
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
